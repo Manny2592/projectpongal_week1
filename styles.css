@@ -1,0 +1,56 @@
+/*HTML SELECTOR TAG*/
+
+img{
+  height: 400px;
+  width: 300px;
+}
+img:hover{
+  background-color: gold;
+}
+
+hr{
+  height:0;
+  background-color: white;
+  width: 100px;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: grey;
+}
+
+body{
+  background-color: #ffd57e;
+  text-align:center;
+  font-family: 'Itim', cursive;
+}
+
+h1{
+  color: #16697a;
+  margin:auto auto auto auto;
+}
+
+h1:hover{
+  color:green;
+}
+
+h3{
+  color: #16697a;
+}
+p{
+  color: #16697a;
+}
+
+/****CLASS SELECTOR *****/
+.idli{
+  background-color: red;
+  height:300px;
+}
+
+.chutneypodi{
+  background-color: green;
+  height: 300px;
+
+}
+
+.circular{
+  border-radius: 10%;
+}
